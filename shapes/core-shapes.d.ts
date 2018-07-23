@@ -30,4 +30,6 @@ export declare const ClrShapeViewColumns: string;
 export declare const ClrShapeAngleDouble: string;
 export declare const ClrShapeCalendar: string;
 export declare const ClrShapeEvent: string;
+export declare const ClrShapeEye: string;
+export declare const ClrShapeEyeHide: string;
 export declare const CoreShapes: any;
