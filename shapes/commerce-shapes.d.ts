@@ -17,4 +17,5 @@ export declare const ClrShapeYen: string;
 export declare const ClrShapeBitcoin: string;
 export declare const ClrShapeCoinBag: string;
 export declare const ClrShapePeso: string;
+export declare const ClrShapeRuble: string;
 export declare const CommerceShapes: any;
