@@ -181,6 +181,7 @@ Object.defineProperty(exports.CoreShapes, 'avatar', descriptor_config_1.descript
 Object.defineProperty(exports.CoreShapes, 'caret', descriptor_config_1.descriptorConfig(exports.CoreShapes.angle));
 Object.defineProperty(exports.CoreShapes, 'directory', descriptor_config_1.descriptorConfig(exports.CoreShapes.folder));
 Object.defineProperty(exports.CoreShapes, 'notification', descriptor_config_1.descriptorConfig(exports.CoreShapes.bell));
+Object.defineProperty(exports.CoreShapes, 'collapse', descriptor_config_1.descriptorConfig(exports.CoreShapes['angle-double']));
 
 
 /***/ }),
@@ -202,6 +203,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var descriptor_config_1 = __webpack_require__(/*! ../utils/descriptor-config */ "./src/clr-icons/utils/descriptor-config.ts");
 var svg_tag_generator_1 = __webpack_require__(/*! ../utils/svg-tag-generator */ "./src/clr-icons/utils/svg-tag-generator.ts");
+// TODO: deprecate these imported shapes in 0.13
+// TODO: remove these imported shapes in 1.0
 var core_shapes_1 = __webpack_require__(/*! ./core-shapes */ "./src/clr-icons/shapes/core-shapes.ts");
 /* tslint:disable:variable-name */
 exports.ClrShapeAddText = svg_tag_generator_1.clrIconSVG("<path class=\"clr-i-outline clr-i-outline-path-1\" d=\"M31,21H13a1,1,0,0,0,0,2H31a1,1,0,0,0,0-2Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-2\" d=\"M12,16a1,1,0,0,0,1,1H31a1,1,0,0,0,0-2H13A1,1,0,0,0,12,16Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-3\" d=\"M27,27H13a1,1,0,0,0,0,2H27a1,1,0,0,0,0-2Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-4\" d=\"M15.89,9a1,1,0,0,0-1-1H10V3.21a1,1,0,0,0-2,0V8H2.89a1,1,0,0,0,0,2H8v5.21a1,1,0,0,0,2,0V10h4.89A1,1,0,0,0,15.89,9Z\"/>");
@@ -338,7 +341,6 @@ exports.EssentialShapes = {
     'pop-out': exports.ClrShapePopOut,
     filter: exports.ClrShapeFilter,
     pin: exports.ClrShapePin,
-    'angle-double': core_shapes_1.ClrShapeAngleDouble,
     file: exports.ClrShapeFile,
     plus: exports.ClrShapePlus,
     minus: exports.ClrShapeMinus,
@@ -419,7 +421,6 @@ exports.ClrShapeEyeHide = core_shapes_2.ClrShapeEyeHide;
 Object.defineProperty(exports.EssentialShapes, 'edit', descriptor_config_1.descriptorConfig(exports.EssentialShapes.pencil));
 Object.defineProperty(exports.EssentialShapes, 'note-edit', descriptor_config_1.descriptorConfig(exports.EssentialShapes.note));
 Object.defineProperty(exports.EssentialShapes, 'group', descriptor_config_1.descriptorConfig(exports.EssentialShapes.users));
-Object.defineProperty(exports.EssentialShapes, 'collapse', descriptor_config_1.descriptorConfig(exports.EssentialShapes['angle-double']));
 Object.defineProperty(exports.EssentialShapes, 'document', descriptor_config_1.descriptorConfig(exports.EssentialShapes.file));
 Object.defineProperty(exports.EssentialShapes, 'add', descriptor_config_1.descriptorConfig(exports.EssentialShapes.plus));
 Object.defineProperty(exports.EssentialShapes, 'cancel', descriptor_config_1.descriptorConfig(exports.EssentialShapes.ban));

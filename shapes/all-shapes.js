@@ -148,6 +148,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * This software is released under MIT license.
  * The full license information can be found in LICENSE in the root directory of this project.
  */
+var descriptor_config_1 = __webpack_require__(/*! ../utils/descriptor-config */ "./src/clr-icons/utils/descriptor-config.ts");
 var svg_tag_generator_1 = __webpack_require__(/*! ../utils/svg-tag-generator */ "./src/clr-icons/utils/svg-tag-generator.ts");
 /* tslint:disable:variable-name */
 exports.ClrShapeAxisChart = svg_tag_generator_1.clrIconSVG("\n  <path class=\"clr-i-outline clr-i-outline-path-1\" d=\"M 32 5 L 4 5 C 2.895 5 2 5.895 2 7 L 2 29 C 2 30.105 2.895 31 4 31 L 32 31 C 33.105 31 34 30.105 34 29 L 34 7 C 34 5.895 33.105 5 32 5 Z M 4 29 L 4 7 L 32 7 L 32 29 Z\"/>\n  <path class=\"clr-i-outline clr-i-outline-path-2\" d=\"M 6.007 26.731 L 27.73 26.73 C 28.49 26.67 28.91 25.8 28.47 25.17 C 28.3 24.92 28.03 24.76 27.73 24.74 L 8.001 24.736 L 8.01 11.01 C 8.01 10.23 7.17 9.75 6.5 10.14 C 6.19 10.31 6 10.65 6 11.01 L 6.007 26.731 Z\"/>\n  <path class=\"clr-i-solid clr-i-solid-path-1\" d=\"M 34 7 L 34 29 C 34 30.105 33.105 31 32 31 L 4 31 C 2.896 31 2 30.105 2 29 L 2 7 C 2 5.896 2.896 5 4 5 L 32 5 C 33.105 5 34 5.896 34 7 Z M 6.007 26.731 L 27.73 26.73 C 28.49 26.67 28.91 25.8 28.47 25.17 C 28.3 24.92 28.03 24.76 27.73 24.74 L 8.001 24.736 L 8.01 11.01 C 8.01 10.23 7.17 9.75 6.5 10.14 C 6.19 10.31 6 10.65 6 11.01 Z\"/>\n  <path class=\"clr-i-outline--badged clr-i-outline-path-1--badged\" d=\"M 32 13.22 L 32 29 L 4 29 L 4 7 L 22.57 7 C 22.524 6.668 22.501 6.334 22.5 6 C 22.501 5.665 22.524 5.331 22.57 5 L 4 5 C 2.895 5 2 5.895 2 7 L 2 29 C 2 30.104 2.895 31 4 31 L 32 31 C 33.104 31 34 30.104 34 29 L 34 12.34 C 33.38 12.73 32.706 13.026 32 13.22 Z\"/>\n  <path class=\"clr-i-outline--badged clr-i-outline-path-2--badged\" d=\"M 6.007 26.731 L 27.73 26.73 C 28.49 26.67 28.91 25.8 28.47 25.17 C 28.3 24.92 28.03 24.76 27.73 24.74 L 8.001 24.736 L 8.01 11.01 C 8.01 10.23 7.17 9.75 6.5 10.14 C 6.19 10.31 6 10.65 6 11.01 L 6.007 26.731 Z\"/>\n  <circle class=\"clr-i-outline--badged clr-i-outline-path-3--badged clr-i-badge\" cx=\"30\" cy=\"6\" r=\"5\"/>\n  <path class=\"clr-i-solid--badged clr-i-solid-path-1--badged\" d=\"M 34 12.34 L 34 29 C 34 30.105 33.105 31 32 31 L 4 31 C 2.896 31 2 30.105 2 29 L 2 7 C 2 5.896 2.896 5 4 5 L 22.57 5 C 21.969 9.233 25.05 13.1 29.31 13.46 L 30.32 13.48 C 31.626 13.429 32.895 13.036 34 12.34 Z M 6.007 26.731 L 27.73 26.73 C 28.49 26.67 28.91 25.8 28.47 25.17 C 28.3 24.92 28.03 24.76 27.73 24.74 L 8.001 24.736 L 8.01 11.01 C 8.01 10.23 7.17 9.75 6.5 10.14 C 6.19 10.31 6 10.65 6 11.01 Z\"/>\n  <circle class=\"clr-i-solid--badged clr-i-solid-path-2--badged clr-i-badge\" cx=\"30\" cy=\"6\" r=\"5\"/>\n  <path class=\"clr-i-outline--alerted clr-i-outline-path-1--alerted\" d=\"M 34 29 C 34 30.105 33.105 31 32 31 L 4 31 C 2.895 31 2 30.105 2 29 L 2 7 C 2 5.895 2.895 5 4 5 L 21.958 5 L 20.786 7 L 4 7 L 4 29 L 32 29 L 32 15.357 L 34 15.357 Z\"/>\n  <path class=\"clr-i-outline--alerted clr-i-outline-path-2--alerted\" d=\"M 6.007 26.731 L 27.73 26.73 C 28.49 26.67 28.91 25.8 28.47 25.17 C 28.3 24.92 28.03 24.76 27.73 24.74 L 8.001 24.736 L 8.01 11.01 C 8.01 10.23 7.17 9.75 6.5 10.14 C 6.19 10.31 6 10.65 6 11.01 L 6.007 26.731 Z\"/>\n  <path class=\"clr-i-outline--alerted clr-i-outline-path-3--alerted clr-i-alert\" d=\"M 26.854 1.144 L 21.134 11.004 C 20.579 11.818 21.114 12.928 22.097 13.001 C 22.142 13.005 22.188 13.006 22.234 13.004 L 33.684 13.004 C 34.669 13.036 35.319 11.991 34.855 11.122 C 34.834 11.081 34.81 11.042 34.784 11.004 L 29.064 1.144 C 28.57 0.299 27.348 0.299 26.854 1.144 Z\"/>\n  <path class=\"clr-i-solid--alerted clr-i-solid-path-1--alerted\" d=\"M 34 29 C 34 30.105 33.105 31 32 31 L 4 31 C 2.896 31 2 30.105 2 29 L 2 7 C 2 5.896 2.896 5 4 5 L 21.958 5 L 17.625 12.395 C 16.795 13.601 17.594 15.245 19.064 15.351 C 19.134 15.357 19.201 15.359 19.27 15.357 L 34 15.357 Z M 6.007 26.731 L 27.73 26.73 C 28.49 26.67 28.91 25.8 28.47 25.17 C 28.3 24.92 28.03 24.76 27.73 24.74 L 8.001 24.736 L 8.01 11.01 C 8.01 10.23 7.17 9.75 6.5 10.14 C 6.19 10.31 6 10.65 6 11.01 Z\"/>\n  <path class=\"clr-i-solid--alerted clr-i-solid-path-2--alerted clr-i-alert\" d=\"M 26.854 1.144 L 21.134 11.004 C 20.579 11.818 21.114 12.928 22.097 13.001 C 22.142 13.005 22.188 13.006 22.234 13.004 L 33.684 13.004 C 34.669 13.036 35.319 11.991 34.855 11.122 C 34.834 11.081 34.81 11.042 34.784 11.004 L 29.064 1.144 C 28.57 0.299 27.348 0.299 26.854 1.144 Z\"/>");
@@ -176,6 +177,7 @@ exports.ChartShapes = {
     'box-plot': exports.ClrShapeBoxPlot,
     'heat-map': exports.ClrShapeHeatMap,
 };
+Object.defineProperty(exports.ChartShapes, 'analytics', descriptor_config_1.descriptorConfig(exports.ChartShapes['line-chart']));
 if (typeof window !== 'undefined' && window.hasOwnProperty('ClarityIcons')) {
     window.ClarityIcons.add(exports.ChartShapes);
 }
@@ -349,6 +351,7 @@ Object.defineProperty(exports.CoreShapes, 'avatar', descriptor_config_1.descript
 Object.defineProperty(exports.CoreShapes, 'caret', descriptor_config_1.descriptorConfig(exports.CoreShapes.angle));
 Object.defineProperty(exports.CoreShapes, 'directory', descriptor_config_1.descriptorConfig(exports.CoreShapes.folder));
 Object.defineProperty(exports.CoreShapes, 'notification', descriptor_config_1.descriptorConfig(exports.CoreShapes.bell));
+Object.defineProperty(exports.CoreShapes, 'collapse', descriptor_config_1.descriptorConfig(exports.CoreShapes['angle-double']));
 
 
 /***/ }),
@@ -370,6 +373,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var descriptor_config_1 = __webpack_require__(/*! ../utils/descriptor-config */ "./src/clr-icons/utils/descriptor-config.ts");
 var svg_tag_generator_1 = __webpack_require__(/*! ../utils/svg-tag-generator */ "./src/clr-icons/utils/svg-tag-generator.ts");
+// TODO: deprecate these imported shapes in 0.13
+// TODO: remove these imported shapes in 1.0
 var core_shapes_1 = __webpack_require__(/*! ./core-shapes */ "./src/clr-icons/shapes/core-shapes.ts");
 /* tslint:disable:variable-name */
 exports.ClrShapeAddText = svg_tag_generator_1.clrIconSVG("<path class=\"clr-i-outline clr-i-outline-path-1\" d=\"M31,21H13a1,1,0,0,0,0,2H31a1,1,0,0,0,0-2Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-2\" d=\"M12,16a1,1,0,0,0,1,1H31a1,1,0,0,0,0-2H13A1,1,0,0,0,12,16Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-3\" d=\"M27,27H13a1,1,0,0,0,0,2H27a1,1,0,0,0,0-2Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-4\" d=\"M15.89,9a1,1,0,0,0-1-1H10V3.21a1,1,0,0,0-2,0V8H2.89a1,1,0,0,0,0,2H8v5.21a1,1,0,0,0,2,0V10h4.89A1,1,0,0,0,15.89,9Z\"/>");
@@ -506,7 +511,6 @@ exports.EssentialShapes = {
     'pop-out': exports.ClrShapePopOut,
     filter: exports.ClrShapeFilter,
     pin: exports.ClrShapePin,
-    'angle-double': core_shapes_1.ClrShapeAngleDouble,
     file: exports.ClrShapeFile,
     plus: exports.ClrShapePlus,
     minus: exports.ClrShapeMinus,
@@ -587,7 +591,6 @@ exports.ClrShapeEyeHide = core_shapes_2.ClrShapeEyeHide;
 Object.defineProperty(exports.EssentialShapes, 'edit', descriptor_config_1.descriptorConfig(exports.EssentialShapes.pencil));
 Object.defineProperty(exports.EssentialShapes, 'note-edit', descriptor_config_1.descriptorConfig(exports.EssentialShapes.note));
 Object.defineProperty(exports.EssentialShapes, 'group', descriptor_config_1.descriptorConfig(exports.EssentialShapes.users));
-Object.defineProperty(exports.EssentialShapes, 'collapse', descriptor_config_1.descriptorConfig(exports.EssentialShapes['angle-double']));
 Object.defineProperty(exports.EssentialShapes, 'document', descriptor_config_1.descriptorConfig(exports.EssentialShapes.file));
 Object.defineProperty(exports.EssentialShapes, 'add', descriptor_config_1.descriptorConfig(exports.EssentialShapes.plus));
 Object.defineProperty(exports.EssentialShapes, 'cancel', descriptor_config_1.descriptorConfig(exports.EssentialShapes.ban));
@@ -626,7 +629,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * The full license information can be found in LICENSE in the root directory of this project.
  */
 var svg_tag_generator_1 = __webpack_require__(/*! ../utils/svg-tag-generator */ "./src/clr-icons/utils/svg-tag-generator.ts");
-var essential_shapes_1 = __webpack_require__(/*! ./essential-shapes */ "./src/clr-icons/shapes/essential-shapes.ts");
 /* tslint:disable:variable-name */
 exports.ClrShapePlay = svg_tag_generator_1.clrIconSVG("<path class=\"clr-i-outline clr-i-outline-path-1\" d=\"M8.07,31.6A2.07,2.07,0,0,1,6,29.53V6.32A2.07,2.07,0,0,1,9,4.47L32.21,16.08a2.07,2.07,0,0,1,0,3.7L9,31.38A2.06,2.06,0,0,1,8.07,31.6Zm0-25.34L8,6.32V29.53l.1.06L31.31,18a.06.06,0,0,0,0-.06Z\"/>\n                <path class=\"clr-i-solid clr-i-solid-path-1\" d=\"M32.16,16.08,8.94,4.47A2.07,2.07,0,0,0,6,6.32V29.53a2.06,2.06,0,0,0,3,1.85L32.16,19.77a2.07,2.07,0,0,0,0-3.7Z\"/>");
 exports.ClrShapePause = svg_tag_generator_1.clrIconSVG("<path class=\"clr-i-outline clr-i-outline-path-1\" d=\"M12.93,32H6.07A2.07,2.07,0,0,1,4,29.93V6.07A2.07,2.07,0,0,1,6.07,4h6.87A2.07,2.07,0,0,1,15,6.07V29.93A2.07,2.07,0,0,1,12.93,32ZM13,6H6V30h7Z\"/>\n                <path class=\"clr-i-outline clr-i-outline-path-2\" d=\"M29.93,32H23.07A2.07,2.07,0,0,1,21,29.93V6.07A2.07,2.07,0,0,1,23.07,4h6.87A2.07,2.07,0,0,1,32,6.07V29.93A2.07,2.07,0,0,1,29.93,32ZM30,6H23V30h7Z\"/>\n                <rect class=\"clr-i-solid clr-i-solid-path-1\" x=\"3.95\" y=\"4\" width=\"11\" height=\"28\" rx=\"2.07\" ry=\"2.07\"/>\n                <rect class=\"clr-i-solid clr-i-solid-path-2\" x=\"20.95\" y=\"4\" width=\"11\" height=\"28\" rx=\"2.07\" ry=\"2.07\"/>");
@@ -665,7 +667,6 @@ exports.MediaShapes = {
     headphones: exports.ClrShapeHeadphones,
     'film-strip': exports.ClrShapeFilmStrip,
     'music-note': exports.ClrShapeMusicNote,
-    wand: essential_shapes_1.ClrShapeWand,
     'image-gallery': exports.ClrShapeImageGallery,
     'replay-all': exports.ClrShapeReplayAll,
     'replay-one': exports.ClrShapeReplayOne,
@@ -764,9 +765,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var descriptor_config_1 = __webpack_require__(/*! ../utils/descriptor-config */ "./src/clr-icons/utils/descriptor-config.ts");
 var svg_tag_generator_1 = __webpack_require__(/*! ../utils/svg-tag-generator */ "./src/clr-icons/utils/svg-tag-generator.ts");
-// TODO: deprecate these imported shapes in 0.12
-// TODO: remove these imported shapes in 0.13
-var chart_shapes_1 = __webpack_require__(/*! ./chart-shapes */ "./src/clr-icons/shapes/chart-shapes.ts");
 /* tslint:disable:variable-name */
 exports.ClrShapeRulerPencil = svg_tag_generator_1.clrIconSVG("<polygon class=\"clr-i-outline clr-i-outline-path-1\" points=\"9 17.41 9 27 18.59 27 16.59 25 11 25 11 19.41 9 17.41\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-2\" d=\"M34.87,32.29,32,29.38V32H4V27.85H6v-1.6H4V19.6H6V18H4V11.6H6V10H4V4.41L19.94,20.26V17.44L3.71,1.29A1,1,0,0,0,2,2V33a1,1,0,0,0,1,1H34.16a1,1,0,0,0,.71-1.71Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-3\" d=\"M24,30h4a2,2,0,0,0,2-2V8.7L27.7,4.47a2,2,0,0,0-1.76-1h0a2,2,0,0,0-1.76,1.08L22,8.72V28A2,2,0,0,0,24,30ZM24,9.2l1.94-3.77L28,9.21V24H24Zm0,16.43h4v2.44H24Z\"/>\n            <path class=\"clr-i-solid clr-i-solid-path-1\" d=\"M34.87,32.21,30,27.37V8.75L27.7,4.52a2,2,0,0,0-3.54,0L22,8.76V19.41L3.71,1.21A1,1,0,0,0,2,1.92V10H4.17v1.6H2V18H4.17v1.6H2v6.65H4.17v1.6H2v5.07a1,1,0,0,0,1,1H34.16a1,1,0,0,0,.71-1.71ZM10,26V16.94L19.07,26Zm18,2.11H24V25.68h4Zm0-4H24V9.25l1.94-3.77L28,9.26Z\"/>\n</svg>");
 exports.ClrShapePhoneHandset = svg_tag_generator_1.clrIconSVG("<path class=\"clr-i-outline clr-i-outline-path-1\" d=\"M27.73,35.44a4.72,4.72,0,0,1-1-.11,33.91,33.91,0,0,1-16.62-8.75,32.71,32.71,0,0,1-9-16.25A4.58,4.58,0,0,1,2.46,6.05l4-3.85A2,2,0,0,1,8,1.66a2,2,0,0,1,1.45.87l5,7.39a1.6,1.6,0,0,1-.11,1.9l-2.51,3a18.94,18.94,0,0,0,4.17,5.89h0a19.26,19.26,0,0,0,6.07,4.09l3.11-2.47a1.64,1.64,0,0,1,1.86-.12l7.55,4.88A2,2,0,0,1,35,30.2l-3.9,3.86A4.74,4.74,0,0,1,27.73,35.44ZM7.84,3.64l-4,3.85a2.54,2.54,0,0,0-.75,2.4,30.7,30.7,0,0,0,8.41,15.26,31.9,31.9,0,0,0,15.64,8.23,2.75,2.75,0,0,0,2.5-.74l3.9-3.86-7.29-4.71-3.34,2.66a1,1,0,0,1-.92.17,20.06,20.06,0,0,1-7.36-4.75h0a19.49,19.49,0,0,1-4.87-7.2A1,1,0,0,1,10,14l2.7-3.23Z\"/>\n            <path class=\"clr-i-solid clr-i-solid-path-1\" d=\"M15.22,20.64a20.37,20.37,0,0,0,7.4,4.79l3.77-3a.67.67,0,0,1,.76,0l7,4.51a2,2,0,0,1,.33,3.18l-3.28,3.24a4,4,0,0,1-3.63,1.07,35.09,35.09,0,0,1-17.15-9A33.79,33.79,0,0,1,1.15,8.6a3.78,3.78,0,0,1,1.1-3.55l3.4-3.28a2,2,0,0,1,3.12.32L13.43,9a.63.63,0,0,1,0,.75l-3.07,3.69A19.75,19.75,0,0,0,15.22,20.64Z\"/>\n</svg>");
@@ -857,11 +855,9 @@ exports.TechnologyShapes = {
     devices: exports.ClrShapeDevices,
     keyboard: exports.ClrShapeKeyboard,
     mouse: exports.ClrShapeMouse,
-    'line-chart': chart_shapes_1.ClrShapeLineChart,
     dashboard: exports.ClrShapeDashboard,
     host: exports.ClrShapeHost,
     storage: exports.ClrShapeStorage,
-    'bar-chart': chart_shapes_1.ClrShapeBarChart,
     cluster: exports.ClrShapeCluster,
     applications: exports.ClrShapeApplications,
     building: exports.ClrShapeBuilding,
@@ -914,7 +910,6 @@ exports.TechnologyShapes = {
     'bluetooth-off': exports.ClrShapeBluetoothOff,
     'process-on-vm': exports.ClrShapeProcessOnVM,
 };
-Object.defineProperty(exports.TechnologyShapes, 'analytics', descriptor_config_1.descriptorConfig(exports.TechnologyShapes['line-chart']));
 Object.defineProperty(exports.TechnologyShapes, 'server', descriptor_config_1.descriptorConfig(exports.TechnologyShapes.host));
 Object.defineProperty(exports.TechnologyShapes, 'command', descriptor_config_1.descriptorConfig(exports.TechnologyShapes.terminal));
 Object.defineProperty(exports.TechnologyShapes, 'mobile-phone', descriptor_config_1.descriptorConfig(exports.TechnologyShapes.mobile));

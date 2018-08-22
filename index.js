@@ -505,6 +505,7 @@ Object.defineProperty(exports.CoreShapes, 'avatar', descriptor_config_1.descript
 Object.defineProperty(exports.CoreShapes, 'caret', descriptor_config_1.descriptorConfig(exports.CoreShapes.angle));
 Object.defineProperty(exports.CoreShapes, 'directory', descriptor_config_1.descriptorConfig(exports.CoreShapes.folder));
 Object.defineProperty(exports.CoreShapes, 'notification', descriptor_config_1.descriptorConfig(exports.CoreShapes.bell));
+Object.defineProperty(exports.CoreShapes, 'collapse', descriptor_config_1.descriptorConfig(exports.CoreShapes['angle-double']));
 
 
 /***/ }),
