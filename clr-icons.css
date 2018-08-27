@@ -20,17 +20,17 @@ clr-icon {
     clr-icon.is-warning .transparent-fill-stroke {
       stroke: #fac400; }
   clr-icon.is-blue, clr-icon.is-info {
-    fill: #007cbb; }
+    fill: #0079b8; }
     clr-icon.is-blue .transparent-fill-stroke, clr-icon.is-info .transparent-fill-stroke {
-      stroke: #007cbb; }
+      stroke: #0079b8; }
   clr-icon.is-white, clr-icon.is-inverse {
     fill: #ffffff; }
     clr-icon.is-white .transparent-fill-stroke, clr-icon.is-inverse .transparent-fill-stroke {
       stroke: #ffffff; }
   clr-icon.is-highlight {
-    fill: #007cbb; }
+    fill: #0079b8; }
     clr-icon.is-highlight .transparent-fill-stroke {
-      stroke: #007cbb; }
+      stroke: #0079b8; }
   clr-icon[shape$=' up'] svg, clr-icon[dir='up'] svg {
     transform: rotate(0deg); }
   clr-icon[shape$=' down'] svg, clr-icon[dir='down'] svg {
@@ -100,9 +100,9 @@ clr-icon {
     clr-icon.has-badge--error .clr-i-badge .transparent-fill-stroke {
       stroke: #e62700; }
   clr-icon.has-badge--info .clr-i-badge {
-    fill: #007cbb; }
+    fill: #0079b8; }
     clr-icon.has-badge--info .clr-i-badge .transparent-fill-stroke {
-      stroke: #007cbb; }
+      stroke: #0079b8; }
   clr-icon.has-alert .clr-i-alert {
     fill: #fac400; }
     clr-icon.has-alert .clr-i-alert .transparent-fill-stroke {
