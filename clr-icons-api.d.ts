@@ -3,9 +3,9 @@ export declare class ClarityIconsApi {
     private static singleInstance;
     private constructor();
     static readonly instance: ClarityIconsApi;
-    private validateName(name);
-    private setIconTemplate(shapeName, shapeTemplate);
-    private setIconAliases(templates, shapeName, aliasNames);
+    private validateName;
+    private setIconTemplate;
+    private setIconAliases;
     add(icons?: IconShapeSources): void;
     has(shapeName: string): boolean;
     get(shapeName?: string): any;
