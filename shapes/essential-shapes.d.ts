@@ -107,5 +107,7 @@ export declare const ClrShapeLandscape: string;
 export declare const ClrShapePaste: string;
 export declare const ClrShapePortrait: string;
 export declare const ClrShapeTreeView: string;
+export declare const ClrShapeCursorHandGrab: string;
+export declare const ClrShapeCursorHandOpen: string;
 export declare const EssentialShapes: any;
 export { ClrShapeEye, ClrShapeEyeHide } from './core-shapes';
