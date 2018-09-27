@@ -1,6 +1,6 @@
 {
   "name": "@clr/icons",
-  "version": "0.13.2",
+  "version": "0.13.3",
   "description": "Custom Element Icons for Clarity",
   "homepage": "https://vmware.github.io/clarity/",
   "main": "index.js",
