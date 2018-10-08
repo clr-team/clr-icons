@@ -12,9 +12,9 @@ clr-icon {
     clr-icon.is-green .transparent-fill-stroke, clr-icon.is-success .transparent-fill-stroke {
       stroke: #318700; }
   clr-icon.is-red, clr-icon.is-danger, clr-icon.is-error {
-    fill: #e62700; }
+    fill: #e12200; }
     clr-icon.is-red .transparent-fill-stroke, clr-icon.is-danger .transparent-fill-stroke, clr-icon.is-error .transparent-fill-stroke {
-      stroke: #e62700; }
+      stroke: #e12200; }
   clr-icon.is-warning {
     fill: #fac400; }
     clr-icon.is-warning .transparent-fill-stroke {
@@ -44,9 +44,9 @@ clr-icon {
   clr-icon[flip='vertical'] svg {
     transform: scale(-1) rotateY(180deg); }
   clr-icon .clr-i-badge {
-    fill: #e62700; }
+    fill: #e12200; }
     clr-icon .clr-i-badge .transparent-fill-stroke {
-      stroke: #e62700; }
+      stroke: #e12200; }
   clr-icon > * {
     height: 100%;
     width: 100%;
@@ -96,9 +96,9 @@ clr-icon {
     clr-icon.has-badge--success .clr-i-badge .transparent-fill-stroke {
       stroke: #318700; }
   clr-icon.has-badge--error .clr-i-badge {
-    fill: #e62700; }
+    fill: #e12200; }
     clr-icon.has-badge--error .clr-i-badge .transparent-fill-stroke {
-      stroke: #e62700; }
+      stroke: #e12200; }
   clr-icon.has-badge--info .clr-i-badge {
     fill: #0079b8; }
     clr-icon.has-badge--info .clr-i-badge .transparent-fill-stroke {
