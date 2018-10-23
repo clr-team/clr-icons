@@ -390,9 +390,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var descriptor_config_1 = __webpack_require__(/*! ../utils/descriptor-config */ "./src/clr-icons/utils/descriptor-config.ts");
 var svg_tag_generator_1 = __webpack_require__(/*! ../utils/svg-tag-generator */ "./src/clr-icons/utils/svg-tag-generator.ts");
-// TODO: deprecate these imported shapes in 0.13
-// TODO: remove these imported shapes in 1.0
-var core_shapes_1 = __webpack_require__(/*! ./core-shapes */ "./src/clr-icons/shapes/core-shapes.ts");
 /* tslint:disable:variable-name */
 exports.ClrShapeAddText = svg_tag_generator_1.clrIconSVG("<path class=\"clr-i-outline clr-i-outline-path-1\" d=\"M31,21H13a1,1,0,0,0,0,2H31a1,1,0,0,0,0-2Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-2\" d=\"M12,16a1,1,0,0,0,1,1H31a1,1,0,0,0,0-2H13A1,1,0,0,0,12,16Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-3\" d=\"M27,27H13a1,1,0,0,0,0,2H27a1,1,0,0,0,0-2Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-4\" d=\"M15.89,9a1,1,0,0,0-1-1H10V3.21a1,1,0,0,0-2,0V8H2.89a1,1,0,0,0,0,2H8v5.21a1,1,0,0,0,2,0V10h4.89A1,1,0,0,0,15.89,9Z\"/>");
 exports.ClrShapePinboard = svg_tag_generator_1.clrIconSVG("<path class=\"clr-i-outline clr-i-outline-path-1\" d=\"M30,30,6,30,6,6H22V4H6A2,2,0,0,0,4,6V30a2,2,0,0,0,2,2H30a2,2,0,0,0,2-2V14H30Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-2\" d=\"M33.57,9.33l-7-7a1,1,0,0,0-1.41,1.41l7,7a1,1,0,1,0,1.41-1.41Z\"/>\n            <path class=\"clr-i-outline clr-i-outline-path-3\" d=\"M22.1,11.19l.7.5L26.46,8,25,6.56,22.51,9.13c-2-.87-4.35.14-5.92,1.68l-.72.71,3.54,3.54-3.67,3.67,1.41,1.41,3.67-3.67L24.37,20l.71-.72c1.54-1.57,2.55-3.92,1.68-5.93l2.54-2.57L27.88,9.38,24.21,13.1l.49.69c.76,1,.25,2.37-.41,3.33L18.77,11.6C19.84,10.86,21.15,10.5,22.1,11.19Z\"/>\n            <path class=\"clr-i-solid clr-i-solid-path-1\" d=\"M30,30,6,30,6,6H22V4H6A2,2,0,0,0,4,6V30a2,2,0,0,0,2,2H30a2,2,0,0,0,2-2V14H30Z\"/>\n            <path class=\"clr-i-solid clr-i-solid-path-2\" d=\"M33.57,9.33l-7-7a1,1,0,0,0-1.41,1.41l1.38,1.38-4,4c-2-.87-4.35.14-5.92,1.68l-.72.71,3.54,3.54-3.67,3.67,1.41,1.41,3.67-3.67L24.37,20l.71-.72c1.54-1.57,2.55-3.91,1.68-5.92l4-4,1.38,1.38a1,1,0,1,0,1.41-1.41Z\"/>");
@@ -559,8 +556,6 @@ exports.EssentialShapes = {
     'circle-arrow': exports.ClrShapeCircleArrow,
     'child-arrow': exports.ClrShapeChildArrow,
     copy: exports.ClrShapeCopy,
-    eye: core_shapes_1.ClrShapeEye,
-    'eye-hide': core_shapes_1.ClrShapeEyeHide,
     help: exports.ClrShapeHelp,
     login: exports.ClrShapeLogin,
     logout: exports.ClrShapeLogout,
@@ -620,11 +615,6 @@ exports.EssentialShapes = {
     paste: exports.ClrShapePaste,
     portrait: exports.ClrShapePortrait,
 };
-// Moved to core, but reexported here for backwards compat
-// @deprecated since 0.13, removal in 1.0
-var core_shapes_2 = __webpack_require__(/*! ./core-shapes */ "./src/clr-icons/shapes/core-shapes.ts");
-exports.ClrShapeEye = core_shapes_2.ClrShapeEye;
-exports.ClrShapeEyeHide = core_shapes_2.ClrShapeEyeHide;
 Object.defineProperty(exports.EssentialShapes, 'edit', descriptor_config_1.descriptorConfig(exports.EssentialShapes.pencil));
 Object.defineProperty(exports.EssentialShapes, 'note-edit', descriptor_config_1.descriptorConfig(exports.EssentialShapes.note));
 Object.defineProperty(exports.EssentialShapes, 'group', descriptor_config_1.descriptorConfig(exports.EssentialShapes.users));
@@ -632,7 +622,6 @@ Object.defineProperty(exports.EssentialShapes, 'document', descriptor_config_1.d
 Object.defineProperty(exports.EssentialShapes, 'add', descriptor_config_1.descriptorConfig(exports.EssentialShapes.plus));
 Object.defineProperty(exports.EssentialShapes, 'cancel', descriptor_config_1.descriptorConfig(exports.EssentialShapes.ban));
 Object.defineProperty(exports.EssentialShapes, 'remove', descriptor_config_1.descriptorConfig(exports.EssentialShapes['times-circle']));
-Object.defineProperty(exports.EssentialShapes, 'eye-show', descriptor_config_1.descriptorConfig(exports.EssentialShapes.eye));
 Object.defineProperty(exports.EssentialShapes, 'sign-in', descriptor_config_1.descriptorConfig(exports.EssentialShapes.login));
 Object.defineProperty(exports.EssentialShapes, 'sign-out', descriptor_config_1.descriptorConfig(exports.EssentialShapes.logout));
 Object.defineProperty(exports.EssentialShapes, 'lightning', descriptor_config_1.descriptorConfig(exports.EssentialShapes.bolt));
