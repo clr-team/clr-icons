@@ -18,4 +18,5 @@ export declare const ClrShapeUnderline: string;
 export declare const ClrShapeAlignBottom: string;
 export declare const ClrShapeAlignMiddle: string;
 export declare const ClrShapeAlignTop: string;
+export declare const ClrShapeLanguage: string;
 export declare const TextEditShapes: any;

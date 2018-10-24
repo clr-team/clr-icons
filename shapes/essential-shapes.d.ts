@@ -109,4 +109,8 @@ export declare const ClrShapePortrait: string;
 export declare const ClrShapeTreeView: string;
 export declare const ClrShapeCursorHandGrab: string;
 export declare const ClrShapeCursorHandOpen: string;
+export declare const ClrShapeFileZip: string;
+export declare const ClrShapeFilterOff: string;
+export declare const ClrShapeRecycle: string;
+export declare const ClrShapeTree: string;
 export declare const EssentialShapes: any;

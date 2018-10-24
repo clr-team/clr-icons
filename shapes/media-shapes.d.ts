@@ -18,4 +18,6 @@ export declare const ClrShapeImageGallery: string;
 export declare const ClrShapeReplayAll: string;
 export declare const ClrShapeReplayOne: string;
 export declare const ClrShapeVideoGallery: string;
+export declare const ClrShapeMicrophone: string;
+export declare const ClrShapeMicrophoneMute: string;
 export declare const MediaShapes: any;

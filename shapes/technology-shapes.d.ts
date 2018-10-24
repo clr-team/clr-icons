@@ -78,4 +78,5 @@ export declare const ClrShapeContainerVolume: string;
 export declare const ClrShapeFileShare: string;
 export declare const ClrShapeQrCode: string;
 export declare const ClrShapeUsb: string;
+export declare const ClrShapeRadar: string;
 export declare const TechnologyShapes: any;
