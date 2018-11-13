@@ -8,9 +8,9 @@ clr-icon {
   clr-icon .transparent-fill-stroke {
     stroke: currentColor; }
   clr-icon.is-green, clr-icon.is-success {
-    fill: #318700; }
+    fill: #2f8400; }
     clr-icon.is-green .transparent-fill-stroke, clr-icon.is-success .transparent-fill-stroke {
-      stroke: #318700; }
+      stroke: #2f8400; }
   clr-icon.is-red, clr-icon.is-danger, clr-icon.is-error {
     fill: #e12200; }
     clr-icon.is-red .transparent-fill-stroke, clr-icon.is-danger .transparent-fill-stroke, clr-icon.is-error .transparent-fill-stroke {
@@ -92,9 +92,9 @@ clr-icon {
   clr-icon.is-solid[class*='has-alert'] .can-alert.has-solid .clr-i-solid:not(.clr-i-solid--alerted) {
     display: none; }
   clr-icon.has-badge--success .clr-i-badge {
-    fill: #318700; }
+    fill: #2f8400; }
     clr-icon.has-badge--success .clr-i-badge .transparent-fill-stroke {
-      stroke: #318700; }
+      stroke: #2f8400; }
   clr-icon.has-badge--error .clr-i-badge {
     fill: #e12200; }
     clr-icon.has-badge--error .clr-i-badge .transparent-fill-stroke {
