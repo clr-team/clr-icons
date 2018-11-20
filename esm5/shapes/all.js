@@ -1,0 +1,23 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import * as tslib_1 from "tslib";
+/*
+ * Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+ * This software is released under MIT license.
+ * The full license information can be found in LICENSE in the root directory of this project.
+ */
+import { ChartShapes } from './chart';
+import { CommerceShapes } from './commerce';
+import { CoreShapes } from './core';
+import { EssentialShapes } from './essential';
+import { MediaShapes } from './media';
+import { SocialShapes } from './social';
+import { TechnologyShapes } from './technology';
+import { TextEditShapes } from './text-edit';
+import { TravelShapes } from './travel';
+/* tslint:disable:variable-name */
+/** @type {?} */
+export var AllShapes = tslib_1.__assign({}, CoreShapes, CommerceShapes, EssentialShapes, MediaShapes, SocialShapes, TechnologyShapes, TravelShapes, ChartShapes, TextEditShapes);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWxsLmpzIiwic291cmNlUm9vdCI6Im5nOi8vQGNsci9pY29ucy8iLCJzb3VyY2VzIjpbInNoYXBlcy9hbGwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQU1BLE9BQU8sRUFBRSxXQUFXLEVBQUUsTUFBTSxTQUFTLENBQUM7QUFDdEMsT0FBTyxFQUFFLGNBQWMsRUFBRSxNQUFNLFlBQVksQ0FBQztBQUM1QyxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0sUUFBUSxDQUFDO0FBQ3BDLE9BQU8sRUFBRSxlQUFlLEVBQUUsTUFBTSxhQUFhLENBQUM7QUFDOUMsT0FBTyxFQUFFLFdBQVcsRUFBRSxNQUFNLFNBQVMsQ0FBQztBQUN0QyxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0sVUFBVSxDQUFDO0FBQ3hDLE9BQU8sRUFBRSxnQkFBZ0IsRUFBRSxNQUFNLGNBQWMsQ0FBQztBQUNoRCxPQUFPLEVBQUUsY0FBYyxFQUFFLE1BQU0sYUFBYSxDQUFDO0FBQzdDLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxVQUFVLENBQUM7OztBQUd4QyxNQUFNLEtBQU8sU0FBUyx3QkFDakIsVUFBVSxFQUNWLGNBQWMsRUFDZCxlQUFlLEVBQ2YsV0FBVyxFQUNYLFlBQVksRUFDWixnQkFBZ0IsRUFDaEIsWUFBWSxFQUNaLFdBQVcsRUFDWCxjQUFjLENBQ2xCIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIENvcHlyaWdodCAoYykgMjAxNi0yMDE4IFZNd2FyZSwgSW5jLiBBbGwgUmlnaHRzIFJlc2VydmVkLlxuICogVGhpcyBzb2Z0d2FyZSBpcyByZWxlYXNlZCB1bmRlciBNSVQgbGljZW5zZS5cbiAqIFRoZSBmdWxsIGxpY2Vuc2UgaW5mb3JtYXRpb24gY2FuIGJlIGZvdW5kIGluIExJQ0VOU0UgaW4gdGhlIHJvb3QgZGlyZWN0b3J5IG9mIHRoaXMgcHJvamVjdC5cbiAqL1xuXG5pbXBvcnQgeyBDaGFydFNoYXBlcyB9IGZyb20gJy4vY2hhcnQnO1xuaW1wb3J0IHsgQ29tbWVyY2VTaGFwZXMgfSBmcm9tICcuL2NvbW1lcmNlJztcbmltcG9ydCB7IENvcmVTaGFwZXMgfSBmcm9tICcuL2NvcmUnO1xuaW1wb3J0IHsgRXNzZW50aWFsU2hhcGVzIH0gZnJvbSAnLi9lc3NlbnRpYWwnO1xuaW1wb3J0IHsgTWVkaWFTaGFwZXMgfSBmcm9tICcuL21lZGlhJztcbmltcG9ydCB7IFNvY2lhbFNoYXBlcyB9IGZyb20gJy4vc29jaWFsJztcbmltcG9ydCB7IFRlY2hub2xvZ3lTaGFwZXMgfSBmcm9tICcuL3RlY2hub2xvZ3knO1xuaW1wb3J0IHsgVGV4dEVkaXRTaGFwZXMgfSBmcm9tICcuL3RleHQtZWRpdCc7XG5pbXBvcnQgeyBUcmF2ZWxTaGFwZXMgfSBmcm9tICcuL3RyYXZlbCc7XG5cbi8qIHRzbGludDpkaXNhYmxlOnZhcmlhYmxlLW5hbWUgKi9cbmV4cG9ydCBjb25zdCBBbGxTaGFwZXMgPSB7XG4gIC4uLkNvcmVTaGFwZXMsXG4gIC4uLkNvbW1lcmNlU2hhcGVzLFxuICAuLi5Fc3NlbnRpYWxTaGFwZXMsXG4gIC4uLk1lZGlhU2hhcGVzLFxuICAuLi5Tb2NpYWxTaGFwZXMsXG4gIC4uLlRlY2hub2xvZ3lTaGFwZXMsXG4gIC4uLlRyYXZlbFNoYXBlcyxcbiAgLi4uQ2hhcnRTaGFwZXMsXG4gIC4uLlRleHRFZGl0U2hhcGVzLFxufTtcbiJdfQ==

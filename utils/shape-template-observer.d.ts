@@ -4,12 +4,12 @@
  * The full license information can be found in LICENSE in the root directory of this project.
  */
 import { ShapeTemplateObservables } from '../interfaces/icon-interfaces';
-export declare const changeHandlerCallbacks: ShapeTemplateObservables;
-export declare class ShapeTemplateObserver {
-    private static singleInstance;
-    private callbacks;
-    private constructor();
-    static readonly instance: ShapeTemplateObserver;
-    subscribeTo(shapeName: string, changeHandlerCallback: Function): () => void;
-    emitChanges(shapeName: string, template: string): void;
+export declare namespace ShapeTemplateObserverModule {
+    const changeHandlerCallbacks: ShapeTemplateObservables;
+    class ShapeTemplateObserver {
+        private callbacks;
+        subscribeTo(shapeName: string, changeHandlerCallback: Function): () => void;
+        emitChanges(shapeName: string, template: string): void;
+    }
+    const instance: ShapeTemplateObserver;
 }

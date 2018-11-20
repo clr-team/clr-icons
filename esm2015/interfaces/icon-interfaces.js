@@ -1,0 +1,17 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/**
+ * @record
+ */
+export function IconAlias() { }
+/**
+ * @record
+ */
+export function IconShapeSources() { }
+/**
+ * @record
+ */
+export function ShapeTemplateObservables() { }
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaWNvbi1pbnRlcmZhY2VzLmpzIiwic291cmNlUm9vdCI6Im5nOi8vQGNsci9pY29ucy8iLCJzb3VyY2VzIjpbImludGVyZmFjZXMvaWNvbi1pbnRlcmZhY2VzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFLQSwrQkFFQzs7OztBQUNELHNDQUVDOzs7O0FBQ0QsOENBRUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogQ29weXJpZ2h0IChjKSAyMDE2LTIwMTggVk13YXJlLCBJbmMuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuXG4gKiBUaGlzIHNvZnR3YXJlIGlzIHJlbGVhc2VkIHVuZGVyIE1JVCBsaWNlbnNlLlxuICogVGhlIGZ1bGwgbGljZW5zZSBpbmZvcm1hdGlvbiBjYW4gYmUgZm91bmQgaW4gTElDRU5TRSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBwcm9qZWN0LlxuICovXG5leHBvcnQgaW50ZXJmYWNlIEljb25BbGlhcyB7XG4gIFtrZXk6IHN0cmluZ106IHN0cmluZ1tdO1xufVxuZXhwb3J0IGludGVyZmFjZSBJY29uU2hhcGVTb3VyY2VzIHtcbiAgW2tleTogc3RyaW5nXTogc3RyaW5nO1xufVxuZXhwb3J0IGludGVyZmFjZSBTaGFwZVRlbXBsYXRlT2JzZXJ2YWJsZXMge1xuICBba2V5OiBzdHJpbmddOiBGdW5jdGlvbltdO1xufVxuIl19
