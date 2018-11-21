@@ -1,23 +1,3 @@
-export declare const ClrShapeCalculatorSVG: string;
-export declare const ClrShapeShoppingBagSVG: string;
-export declare const ClrShapePiggyBankSVG: string;
-export declare const ClrShapeShoppingCartSVG: string;
-export declare const ClrShapeWalletSVG: string;
-export declare const ClrShapeStoreSVG: string;
-export declare const ClrShapeEuroSVG: string;
-export declare const ClrShapeDollarSVG: string;
-export declare const ClrShapeCreditCardSVG: string;
-export declare const ClrShapeBankSVG: string;
-export declare const ClrShapeDollarBillSVG: string;
-export declare const ClrShapeECheckSVG: string;
-export declare const ClrShapePoundSVG: string;
-export declare const ClrShapeRupeeSVG: string;
-export declare const ClrShapeWonSVG: string;
-export declare const ClrShapeYenSVG: string;
-export declare const ClrShapeBitcoinSVG: string;
-export declare const ClrShapeCoinBagSVG: string;
-export declare const ClrShapePesoSVG: string;
-export declare const ClrShapeRubleSVG: string;
 export declare const ClrShapeCalculator: {
     calculator: string;
 };
@@ -78,4 +58,4 @@ export declare const ClrShapeRuble: {
 export declare const ClrShapeCoinBag: {
     'coin-bag': string;
 };
-export declare const CommerceShapes: any;
+export declare const ClrCommerceSet: any;

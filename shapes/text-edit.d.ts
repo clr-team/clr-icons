@@ -1,24 +1,3 @@
-export declare const ClrShapeBoldSVG: string;
-export declare const ClrShapeBulletListSVG: string;
-export declare const ClrShapeCenterTextSVG: string;
-export declare const ClrShapeCheckboxListSVG: string;
-export declare const ClrShapeFontSizeSVG: string;
-export declare const ClrShapeAlignCenterSVG: string;
-export declare const ClrShapeAlignLeftSVG: string;
-export declare const ClrShapeAlignRightSVG: string;
-export declare const ClrShapeItalicSVG: string;
-export declare const ClrShapeJustifyTextSVG: string;
-export declare const ClrShapeAlignLeftTextSVG: string;
-export declare const ClrShapeNumberListSVG: string;
-export declare const ClrShapePaintRollerSVG: string;
-export declare const ClrShapeBlockQuoteSVG: string;
-export declare const ClrShapeAlignRightTextSVG: string;
-export declare const ClrShapeTextSVG: string;
-export declare const ClrShapeUnderlineSVG: string;
-export declare const ClrShapeAlignBottomSVG: string;
-export declare const ClrShapeAlignMiddleSVG: string;
-export declare const ClrShapeAlignTopSVG: string;
-export declare const ClrShapeLanguageSVG: string;
 export declare const ClrShapeBold: {
     bold: string;
 };
@@ -82,4 +61,4 @@ export declare const ClrShapeAlignTop: {
 export declare const ClrShapeLanguage: {
     language: string;
 };
-export declare const TextEditShapes: any;
+export declare const ClrTextEditSet: any;

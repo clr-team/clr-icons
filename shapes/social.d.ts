@@ -1,21 +1,3 @@
-export declare const ClrShapeShareSVG: string;
-export declare const ClrShapeStarSVG: string;
-export declare const ClrShapeHalfStarSVG: string;
-export declare const ClrShapeBookmarkSVG: string;
-export declare const ClrShapeEnvelopeSVG: string;
-export declare const ClrShapeTasksSVG: string;
-export declare const ClrShapeFlagSVG: string;
-export declare const ClrShapeInboxSVG: string;
-export declare const ClrShapeHeartSVG: string;
-export declare const ClrShapeHeartBrokenSVG: string;
-export declare const ClrShapeTalkBubblesSVG: string;
-export declare const ClrShapeChatBubbleSVG: string;
-export declare const ClrShapePictureSVG: string;
-export declare const ClrShapeHappyFaceSVG: string;
-export declare const ClrShapeNeutralFaceSVG: string;
-export declare const ClrShapeSadFaceSVG: string;
-export declare const ClrShapeThumbsUpSVG: string;
-export declare const ClrShapeThumbsDownSVG: string;
 export declare const ClrShapeShare: {
     share: string;
 };
@@ -70,4 +52,4 @@ export declare const ClrShapeThumbsUp: {
 export declare const ClrShapeThumbsDown: {
     'thumbs-down': string;
 };
-export declare const SocialShapes: any;
+export declare const ClrSocialSet: any;

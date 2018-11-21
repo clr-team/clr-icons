@@ -1,38 +1,3 @@
-export declare const ClrShapeUnknownStatusSVG: string;
-export declare const ClrShapeHomeSVG: string;
-export declare const ClrShapeCogSVG: string;
-export declare const ClrShapeCheckSVG: string;
-export declare const ClrShapeTimesSVG: string;
-export declare const ClrShapeExclamationTriangleSVG: string;
-export declare const ClrShapeExclamationCircleSVG: string;
-export declare const ClrShapeCheckCircleSVG: string;
-export declare const ClrShapeInfoCircleSVG: string;
-export declare const ClrShapeInfoStandardSVG: string;
-export declare const ClrShapeSuccessStandardSVG: string;
-export declare const ClrShapeErrorStandardSVG: string;
-export declare const ClrShapeWarningStandardSVG: string;
-export declare const ClrShapeHelpInfoSVG: string;
-export declare const ClrShapeBarsSVG: string;
-export declare const ClrShapeUserSVG: string;
-export declare const ClrShapeAngleSVG: string;
-export declare const ClrShapeFolderSVG: string;
-export declare const ClrShapeFolderOpenSVG: string;
-export declare const ClrShapeBellSVG: string;
-export declare const ClrShapeImageSVG: string;
-export declare const ClrShapeCloudSVG: string;
-export declare const ClrShapeEllipsisHorizontalSVG: string;
-export declare const ClrShapeEllipsisVerticalSVG: string;
-export declare const ClrShapeFilterGridSVG: string;
-export declare const ClrShapeFilterGridCircleSVG: string;
-export declare const ClrShapeVmBugSVG: string;
-export declare const ClrShapeSearchSVG: string;
-export declare const ClrShapeViewColumnsSVG: string;
-export declare const ClrShapeAngleDoubleSVG: string;
-export declare const ClrShapeCalendarSVG: string;
-export declare const ClrShapeEventSVG: string;
-export declare const ClrShapeEyeSVG: string;
-export declare const ClrShapeEyeHideSVG: string;
-export declare const ClrShapeStepForward2SVG: string;
 export declare const ClrShapeUnknownStatus: {
     'unknown-status': string;
 };
@@ -138,4 +103,4 @@ export declare const ClrShapeEyeHide: {
 export declare const ClrShapeStepForward2: {
     'step-forward-2': string;
 };
-export declare const CoreShapes: any;
+export declare const ClrCoreSet: any;

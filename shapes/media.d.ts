@@ -1,25 +1,3 @@
-export declare const ClrShapePlaySVG: string;
-export declare const ClrShapePauseSVG: string;
-export declare const ClrShapeStepForwardSVG: string;
-export declare const ClrShapeStopSVG: string;
-export declare const ClrShapePowerSVG: string;
-export declare const ClrShapeRewindSVG: string;
-export declare const ClrShapeFastForwardSVG: string;
-export declare const ClrShapeCameraSVG: string;
-export declare const ClrShapeVideoCameraSVG: string;
-export declare const ClrShapeShuffleSVG: string;
-export declare const ClrShapeVolumeDownSVG: string;
-export declare const ClrShapeVolumeUpSVG: string;
-export declare const ClrShapeVolumeMuteSVG: string;
-export declare const ClrShapeHeadphonesSVG: string;
-export declare const ClrShapeFilmStripSVG: string;
-export declare const ClrShapeMusicNoteSVG: string;
-export declare const ClrShapeImageGallerySVG: string;
-export declare const ClrShapeReplayAllSVG: string;
-export declare const ClrShapeReplayOneSVG: string;
-export declare const ClrShapeVideoGallerySVG: string;
-export declare const ClrShapeMicrophoneSVG: string;
-export declare const ClrShapeMicrophoneMuteSVG: string;
 export declare const ClrShapePlay: {
     play: string;
 };
@@ -86,4 +64,4 @@ export declare const ClrShapeMicrophone: {
 export declare const ClrShapeMicrophoneMute: {
     'microphone-mute': string;
 };
-export declare const MediaShapes: any;
+export declare const ClrMediaSet: any;

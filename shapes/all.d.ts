@@ -1,1 +1,1 @@
-export declare const AllShapes: any;
+export declare const ClrAllSet: any;
