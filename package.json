@@ -3,7 +3,7 @@
   "version": "1.0.0-beta.2",
   "description": "Custom Element Icons for Clarity",
   "homepage": "https://vmware.github.io/clarity/",
-  "main": "bundles/clr-icons.umd.js",
+  "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
@@ -16,17 +16,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vmware/clarity/issues"
-  },
-  "module": "fesm5/clr-icons.js",
-  "es2015": "fesm2015/clr-icons.js",
-  "esm5": "esm5/clr-icons.js",
-  "esm2015": "esm2015/clr-icons.js",
-  "fesm5": "fesm5/clr-icons.js",
-  "fesm2015": "fesm2015/clr-icons.js",
-  "typings": "clr-icons.d.ts",
-  "metadata": "clr-icons.metadata.json",
-  "sideEffects": false,
-  "dependencies": {
-    "tslib": "^1.9.0"
   }
 }

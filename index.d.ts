@@ -1,3 +1,3 @@
-import { ApiModule } from './api';
-export declare const ClarityIcons: ApiModule.ClarityIconsApi;
-export * from './shapes/index';
+import { ClarityIconsApi } from './clr-icons-api';
+declare const clarityIcons: ClarityIconsApi;
+export { clarityIcons as ClarityIcons };
