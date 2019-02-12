@@ -10,4 +10,5 @@ export declare const ClrShapeLineChart: string;
 export declare const ClrShapePieChart: string;
 export declare const ClrShapeScatterPlot: string;
 export declare const ClrShapeTickChart: string;
+export declare const ClrShapeBellCurve: string;
 export declare const ChartShapes: any;
