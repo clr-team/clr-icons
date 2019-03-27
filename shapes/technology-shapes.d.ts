@@ -83,4 +83,5 @@ export declare const ClrShapeInductor: string;
 export declare const ClrShapeResistor: string;
 export declare const ClrShapeCapacitor: string;
 export declare const ClrShapeSquid: string;
+export declare const ClrShapeHostGroup: string;
 export declare const TechnologyShapes: any;
