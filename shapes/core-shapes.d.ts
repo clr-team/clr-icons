@@ -33,4 +33,5 @@ export declare const ClrShapeEvent: string;
 export declare const ClrShapeEye: string;
 export declare const ClrShapeEyeHide: string;
 export declare const ClrShapeStepForward2: string;
+export declare const ClrShapeArrow: string;
 export declare const CoreShapes: any;

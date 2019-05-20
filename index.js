@@ -427,7 +427,7 @@ if (typeof window !== 'undefined') {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 /*
- * Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+ * Copyright (c) 2016-2019 VMware, Inc. All Rights Reserved.
  * This software is released under MIT license.
  * The full license information can be found in LICENSE in the root directory of this project.
  */
@@ -469,6 +469,7 @@ exports.ClrShapeEvent = svg_tag_generator_1.clrIconSVG("<path class=\"clr-i-outl
 exports.ClrShapeEye = svg_tag_generator_1.clrIconSVG("<path d=\"M33.62,17.53c-3.37-6.23-9.28-10-15.82-10S5.34,11.3,2,17.53L1.72,18l.26.48c3.37,6.23,9.28,10,15.82,10s12.46-3.72,15.82-10l.26-.48ZM17.8,26.43C12.17,26.43,7,23.29,4,18c3-5.29,8.17-8.43,13.8-8.43S28.54,12.72,31.59,18C28.54,23.29,23.42,26.43,17.8,26.43Z\" class=\"clr-i-outline clr-i-outline-path-1\"/>\n            <path d=\"M18.09,11.17A6.86,6.86,0,1,0,25,18,6.86,6.86,0,0,0,18.09,11.17Zm0,11.72A4.86,4.86,0,1,1,23,18,4.87,4.87,0,0,1,18.09,22.89Z\" class=\"clr-i-outline clr-i-outline-path-2\"/>\n            <path d=\"M33.62,17.53c-3.37-6.23-9.28-10-15.82-10S5.34,11.3,2,17.53L1.72,18l.26.48c3.37,6.23,9.28,10,15.82,10s12.46-3.72,15.82-10l.26-.48ZM17.8,26.43C12.17,26.43,7,23.29,4,18c3-5.29,8.17-8.43,13.8-8.43S28.54,12.72,31.59,18C28.54,23.29,23.42,26.43,17.8,26.43Z\" class=\"clr-i-solid clr-i-solid-path-1\"/>\n            <circle cx=\"18.09\" cy=\"18.03\" r=\"6.86\" class=\"clr-i-solid clr-i-solid-path-2\"/>");
 exports.ClrShapeEyeHide = svg_tag_generator_1.clrIconSVG("<path d=\"M25.19,20.4A6.78,6.78,0,0,0,25.62,18a6.86,6.86,0,0,0-6.86-6.86,6.79,6.79,0,0,0-2.37.43L18,13.23a4.78,4.78,0,0,1,.74-.06A4.87,4.87,0,0,1,23.62,18a4.79,4.79,0,0,1-.06.74Z\" class=\"clr-i-outline clr-i-outline-path-1\"/>\n            <path d=\"M34.29,17.53c-3.37-6.23-9.28-10-15.82-10a16.82,16.82,0,0,0-5.24.85L14.84,10a14.78,14.78,0,0,1,3.63-.47c5.63,0,10.75,3.14,13.8,8.43a17.75,17.75,0,0,1-4.37,5.1l1.42,1.42a19.93,19.93,0,0,0,5-6l.26-.48Z\" class=\"clr-i-outline clr-i-outline-path-2\"/>\n            <path d=\"M4.87,5.78l4.46,4.46a19.52,19.52,0,0,0-6.69,7.29L2.38,18l.26.48c3.37,6.23,9.28,10,15.82,10a16.93,16.93,0,0,0,7.37-1.69l5,5,1.75-1.5-26-26Zm9.75,9.75,6.65,6.65a4.81,4.81,0,0,1-2.5.72A4.87,4.87,0,0,1,13.9,18,4.81,4.81,0,0,1,14.62,15.53Zm-1.45-1.45a6.85,6.85,0,0,0,9.55,9.55l1.6,1.6a14.91,14.91,0,0,1-5.86,1.2c-5.63,0-10.75-3.14-13.8-8.43a17.29,17.29,0,0,1,6.12-6.3Z\" class=\"clr-i-outline clr-i-outline-path-3\"/>\n            <path d=\"M18.37,11.17A6.79,6.79,0,0,0,16,11.6l8.8,8.8A6.78,6.78,0,0,0,25.23,18,6.86,6.86,0,0,0,18.37,11.17Z\" class=\"clr-i-solid clr-i-solid-path-1\"/>\n            <path d=\"M34.29,17.53c-3.37-6.23-9.28-10-15.82-10a16.82,16.82,0,0,0-5.24.85L14.84,10a14.78,14.78,0,0,1,3.63-.47c5.63,0,10.75,3.14,13.8,8.43a17.75,17.75,0,0,1-4.37,5.1l1.42,1.42a19.93,19.93,0,0,0,5-6l.26-.48Z\" class=\"clr-i-solid clr-i-solid-path-2\"/>\n            <path d=\"M4.87,5.78l4.46,4.46a19.52,19.52,0,0,0-6.69,7.29L2.38,18l.26.48c3.37,6.23,9.28,10,15.82,10a16.93,16.93,0,0,0,7.37-1.69l5,5,1.75-1.5-26-26Zm8.3,8.3a6.85,6.85,0,0,0,9.55,9.55l1.6,1.6a14.91,14.91,0,0,1-5.86,1.2c-5.63,0-10.75-3.14-13.8-8.43a17.29,17.29,0,0,1,6.12-6.3Z\" class=\"clr-i-solid clr-i-solid-path-3\"/>");
 exports.ClrShapeStepForward2 = svg_tag_generator_1.clrIconSVG("<path d=\"M7.08,6.52a1.68,1.68,0,0,0,0,2.4L16.51,18,7.12,27.08a1.7,1.7,0,0,0,2.36,2.44h0L21.4,18,9.48,6.47A1.69,1.69,0,0,0,7.08,6.52Z\" class=\"clr-i-outline clr-i-outline-path-1\" /><path d=\"M26.49,5a1.7,1.7,0,0,0-1.7,1.7V29.3a1.7,1.7,0,0,0,3.4,0V6.7A1.7,1.7,0,0,0,26.49,5Z\" class=\"clr-i-outline clr-i-outline-path-2\" />");
+exports.ClrShapeArrow = svg_tag_generator_1.clrIconSVG("<path d=\"M27.66,15.61,18,6,8.34,15.61A1,1,0,1,0,9.75,17L17,9.81V28.94a1,1,0,1,0,2,0V9.81L26.25,17a1,1,0,0,0,1.41-1.42Z\" class=\"clr-i-outline clr-i-outline-path-1\"/>");
 exports.CoreShapes = {
     'unknown-status': exports.ClrShapeUnknownStatus,
     home: exports.ClrShapeHome,
@@ -505,6 +506,7 @@ exports.CoreShapes = {
     eye: exports.ClrShapeEye,
     'eye-hide': exports.ClrShapeEyeHide,
     'step-forward-2': exports.ClrShapeStepForward2,
+    arrow: exports.ClrShapeArrow,
 };
 Object.defineProperty(exports.CoreShapes, 'house', descriptor_config_1.descriptorConfig(exports.CoreShapes.home));
 Object.defineProperty(exports.CoreShapes, 'settings', descriptor_config_1.descriptorConfig(exports.CoreShapes.cog));

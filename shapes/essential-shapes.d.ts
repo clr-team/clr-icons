@@ -42,7 +42,6 @@ export declare const ClrShapeTags: string;
 export declare const ClrShapeHistory: string;
 export declare const ClrShapeClock: string;
 export declare const ClrShapeAlarmClock: string;
-export declare const ClrShapeArrow: string;
 export declare const ClrShapeCircleArrow: string;
 export declare const ClrShapeChildArrow: string;
 export declare const ClrShapeCopy: string;
